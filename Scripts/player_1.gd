@@ -14,5 +14,6 @@ func get_input():
 		direction = 1
 
 func _physics_process(delta):
+	look_at(get_global_mouse_position())
 	get_input()
 	move_and_slide()

@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=4 uid="uid://44wb56ghurrd"]
+[gd_scene load_steps=6 format=4 uid="uid://44wb56ghurrd"]
 
-[ext_resource type="Texture2D" uid="uid://civd6556vi6bo" path="res://desert/Sample A.png" id="1_tt5f1"]
+[ext_resource type="Texture2D" path="res://desert/Sample A.png" id="1_tt5f1"]
+[ext_resource type="FontFile" uid="uid://bp54llop4vyos" path="res://font/Fonts/Kenney Blocks.ttf" id="2_8saeu"]
 [ext_resource type="TileSet" uid="uid://srmokvdtp2r3" path="res://Tiles/ui.tres" id="2_853f1"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_853f1"]
@@ -36,6 +37,7 @@ offset_top = 78.0
 offset_right = 387.0
 offset_bottom = 215.0
 grow_horizontal = 2
+theme_override_fonts/font = ExtResource("2_8saeu")
 theme_override_font_sizes/font_size = 120
 text = "Hecatomb"
 horizontal_alignment = 1
