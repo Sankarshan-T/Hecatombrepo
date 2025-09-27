@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://6e1u5wcqnjij"]
+
+[ext_resource type="Texture2D" uid="uid://bk4l0kxgc8bpx" path="res://desert/PNG/Enemies/Tilemap/tilemap_packed.png" id="1_jwqgc"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_op0mk"]
+
+[node name="Enemy1" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(3, 3)
+texture = ExtResource("1_jwqgc")
+region_enabled = true
+region_rect = Rect2(0, 72, 24, 24)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 7)
+scale = Vector2(3, 3)
+shape = SubResource("CircleShape2D_op0mk")
