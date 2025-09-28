@@ -31,7 +31,6 @@ offset_left = 60.0
 offset_top = 60.0
 offset_right = 25096.0
 offset_bottom = 2060.0
-metadata/_edit_group_ = true
 
 [node name="EmptyHeart" type="TextureRect" parent="Panel/empty"]
 custom_minimum_size = Vector2(70, 0)
@@ -94,7 +93,6 @@ offset_left = 60.0
 offset_top = 60.0
 offset_right = 25096.0
 offset_bottom = 2060.0
-metadata/_edit_group_ = true
 
 [node name="Heart" type="TextureRect" parent="Panel/HBoxContainer"]
 custom_minimum_size = Vector2(70, 0)
